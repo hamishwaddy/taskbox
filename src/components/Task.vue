@@ -4,7 +4,7 @@
       <input type="checkbox" :checked="isChecked" :disabled="true" name="checked" />
       <span class="checkbox-custom" @click="$emit('archiveTask', task.id)" />
     </label>
-    <div class="title">
+    <div class="title" style="background-color: red">
       <input type="text" :readonly="true" :value="this.task.title" placeholder="Input title" />
     </div>
     <div class="actions">
